@@ -1,0 +1,57 @@
+{
+  "student-uuid-123": {
+    "userId": "student-uuid-123",
+    "completedSteps": [],
+    "activeStepId": "m1-s1",
+    "progressPercentage": 0,
+    "materi": {},
+    "simulasi": {
+      "runs": [],
+      "inspectedBlocks": []
+    },
+    "troubleshoot": {},
+    "quiz": {
+      "best": null,
+      "history": []
+    },
+    "updatedAt": "2026-11-13T15:39:34.870Z"
+  },
+  "student-uuid-456": {
+    "userId": "student-uuid-456",
+    "completedSteps": [
+      "m1-s1"
+    ],
+    "activeStepId": "m1-s2",
+    "progressPercentage": 13,
+    "materi": {},
+    "simulasi": {
+      "runs": [],
+      "inspectedBlocks": []
+    },
+    "troubleshoot": {},
+    "quiz": {
+      "best": null,
+      "history": []
+    },
+    "updatedAt": "2026-11-13T21:27:52.197Z"
+  },
+  "real-student-789": {
+    "userId": "real-student-789",
+    "completedSteps": [
+      "m1-s1"
+    ],
+    "activeStepId": "m1-s2",
+    "progressPercentage": 13,
+    "materi": {},
+    "simulasi": {
+      "runs": [],
+      "inspectedBlocks": []
+    },
+    "troubleshoot": {},
+    "quiz": {
+      "best": null,
+      "history": []
+    },
+    "updatedAt": "2026-11-13T21:27:52.209Z"
+  }
+}

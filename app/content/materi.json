@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "id": "s1-blok",
+      "title": "Diagram Blok Radio",
+      "objective": "Memahami alur dasar penerima AM dan FM",
+      "cards": [
+        {
+          "id": "s1-c1",
+          "title": "Tugas Penerima Radio",
+          "body": "Penerima radio menangkap sinyal elektromagnetik dari udara, memilih satu stasiun, memperkuatnya, dan mengubahnya menjadi suara yang bisa didengar.",
+          "visual": {
+            "component": "BlockDiagram",
+            "props": { "mode": "AM" }
+          },
+          "interaction": "tap-to-play"
+        }
+      ],
+      "quickCheck": {
+        "question": "Pada urutan penerima FM, Limiter berada di antara...",
+        "options": [
+          "Penguat IF dan Detektor FM",
+          "Antena dan Tuner",
+          "Detektor dan Speaker",
+          "Mixer dan Osilator Lokal"
+        ],
+        "correctIndex": 0,
+        "explanation": "Limiter ditempatkan persis setelah penguat IF untuk membatasi amplitudo sebelum masuk ke detektor FM."
+      }
+    }
+  ]
+}

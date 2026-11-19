@@ -2,9 +2,11 @@
 
 # dependencies
 node_modules/
+*/node_modules/
 
 # Expo
 .expo/
+*/.expo/
 dist/
 web-build/
 expo-env.d.ts
@@ -26,17 +28,19 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# macOS & system
 .DS_Store
 *.pem
+Thumbs.db
 
 # local env files
+.env
 .env*.local
+backend/.env
+app/.env
 
 # typescript
 *.tsbuildinfo
-
-example
 
 # generated native folders
 /ios

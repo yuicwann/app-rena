@@ -1,0 +1,36 @@
+{
+  "5c208789-30ad-49c4-ac5c-c095498a2c13": {
+    "userId": "5c208789-30ad-49c4-ac5c-c095498a2c13",
+    "completedSteps": [],
+    "activeStepId": "m1-s1",
+    "progressPercentage": 0,
+    "materi": {},
+    "simulasi": {
+      "runs": [],
+      "inspectedBlocks": []
+    },
+    "troubleshoot": {},
+    "quiz": {
+      "best": null,
+      "history": []
+    },
+    "updatedAt": "2026-11-13T17:31:45.801Z"
+  },
+  "a89d176a-ee3a-44ad-ab50-fcc40704d45b": {
+    "userId": "a89d176a-ee3a-44ad-ab50-fcc40704d45b",
+    "completedSteps": [],
+    "activeStepId": "m1-s1",
+    "progressPercentage": 0,
+    "materi": {},
+    "simulasi": {
+      "runs": [],
+      "inspectedBlocks": []
+    },
+    "troubleshoot": {},
+    "quiz": {
+      "best": null,
+      "history": []
+    },
+    "updatedAt": "2026-11-13T17:48:43.721Z"
+  }
+}

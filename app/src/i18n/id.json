@@ -1,0 +1,65 @@
+{
+  "common": {
+    "appName": "SinyalLab",
+    "continue": "Lanjut",
+    "back": "Kembali",
+    "retry": "Coba Lagi",
+    "start": "Mulai",
+    "finish": "Selesai",
+    "check": "Periksa",
+    "progress": "Progres"
+  },
+  "tabs": {
+    "materi": "Materi",
+    "simulasi": "Simulasi",
+    "troubleshoot": "Lacak Kasus",
+    "evaluasi": "Evaluasi"
+  },
+  "onboarding": {
+    "welcome": "Selamat Datang di SinyalLab!",
+    "subtitle": "Kuasai alur sinyal radio superheterodyne & troubleshooting secara interaktif.",
+    "enterNickname": "Siapa nama panggilanmu?",
+    "startAction": "Mulai Belajar"
+  },
+  "materi": {
+    "title": "Jalur Materi",
+    "continueLearning": "Lanjutkan Belajar",
+    "recommended": "Rekomendasi Berikutnya",
+    "quickCheckTitle": "Cek Cepat"
+  },
+  "simulasi": {
+    "title": "Simulasi Sinyal",
+    "frequency": "Frekuensi",
+    "modeAm": "Mode AM",
+    "modeFm": "Mode FM",
+    "station": "Stasiun",
+    "play": "Putar",
+    "pause": "Jeda",
+    "inspectPrompt": "Ketuk blok untuk melihat detail sinyal"
+  },
+  "troubleshoot": {
+    "title": "Pusat Gangguan",
+    "diagnose": "Mulai Diagnosa",
+    "measurements": "Pengukuran",
+    "hint": "Petunjuk",
+    "guessButton": "Ini biang keroknya!",
+    "measureAnother": "Ukur blok lain",
+    "correctTitle": "Mantap! Biang kerok ditemukan",
+    "wrongTitle": "Belum Tepat"
+  },
+  "evaluasi": {
+    "title": "Kuis Evaluasi",
+    "score": "Skor Akhir",
+    "passed": "LULUS",
+    "failed": "BELUM LULUS",
+    "retake": "Ulangi Kuis",
+    "reviewAnswers": "Tinjau Jawaban"
+  },
+  "profil": {
+    "title": "Profil & Progres",
+    "settings": "Pengaturan",
+    "sound": "Efek Suara",
+    "haptics": "Getar (Haptik)",
+    "resetProgress": "Reset Progres"
+  }
+}

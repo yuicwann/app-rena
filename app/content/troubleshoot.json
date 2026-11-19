@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "id": "case-01",
+      "difficulty": 1,
+      "mode": "FM",
+      "title": "Kasus 1",
+      "symptom": "Radio mendesis keras tapi nggak ada siaran.",
+      "culprit": "TUN",
+      "readings": {
+        "ANT": {
+          "status": "NORMAL",
+          "text": "Sinyal RF normal",
+          "voltage": "≈ 0,5 mVpp",
+          "scope": "rf-weak"
+        },
+        "TUN": {
+          "status": "LOST",
+          "text": "Sinyal IF hilang, hanya noise",
+          "voltage": "≈ 0 V (hanya noise)",
+          "scope": "noise-only"
+        },
+        "IF": {
+          "status": "NOISE_ONLY",
+          "text": "Hanya noise (diperkuat)",
+          "voltage": "≈ 0,2 Vpp noise",
+          "scope": "noise-amplified"
+        },
+        "LIM": {
+          "status": "NOISE_ONLY",
+          "text": "Hanya noise",
+          "voltage": "≈ 1 Vpp noise terpotong",
+          "scope": "noise-clipped"
+        },
+        "DET": {
+          "status": "NOISE_ONLY",
+          "text": "Desis audio",
+          "voltage": "≈ 0,1 Vpp desis",
+          "scope": "audio-hiss"
+        },
+        "AMP": {
+          "status": "NOISE_ONLY",
+          "text": "Desis keras ke speaker",
+          "voltage": "≈ 2 Vpp desis",
+          "scope": "audio-loud-hiss"
+        }
+      },
+      "hints": [
+        "Gejala desis menandakan bagian penguat audio dan detektor masih aktif menghasilkan suara.",
+        "Coba ukur keluaran Tuner untuk melihat apakah osilator lokal berhasil melakukan konversi frekuensi."
+      ],
+      "explanation": {
+        "why": "Osilator lokal pada tuner mati sehingga tidak ada stasiun yang terkonversi menjadi sinyal IF 10,7 MHz.",
+        "rule": "Blok rusak adalah blok pertama yang keluarannya abnormal padahal masukannya normal.",
+        "wrongBlocksNote": {
+          "ANT": "Antena normal karena berhasil menangkap gelombang RF dari udara.",
+          "IF": "Keluaran IF abnormal akibat masukan dari Tuner sudah tidak ada sinyal.",
+          "AMP": "Penguat audio bekerja normal dengan memperkuat suara desis yang masuk."
+        }
+      }
+    }
+  ]
+}
